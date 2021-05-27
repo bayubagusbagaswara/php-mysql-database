@@ -1,0 +1,5 @@
+/**
+* Repository Pattern digunakan sebagai jembatan antar business logic aplikasi kita dengan semua perintah SQL ke database
+* Jadi, semua perintah SQL akan ditulis di Repository, sedangkan business logic kode program kita hanya cukup menggunakan Repository tersebut
+* dari business logic tidak perlu nulis script perintah sql nya, hanya cukup manggil repository
+*/

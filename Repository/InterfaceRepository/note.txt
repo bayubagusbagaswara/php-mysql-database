@@ -1,0 +1,6 @@
+- silah bikin kontrak function yang kiranya dibutuhkan untuk berhubungan dengan database nya 
+- misalnya: insert data, pencarian data berdasarkan id, pencarian semua data, dll 
+
+- bisa menulis kontrak nya sebanyak mungkin, sesuai yang kita butuhkan untuk komunikasi dengan database nya 
+
+- contoh kita akan insert data comment, parameternya berupa Class comment dari Model (parameternya itu jangan array, tapi langsung object si commentnya atau object dari class modelnya). kemudian bisa kita tentukan tiap method kontraknya akan mereturn value berupa data apa.
