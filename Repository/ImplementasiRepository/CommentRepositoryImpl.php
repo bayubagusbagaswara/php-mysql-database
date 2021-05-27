@@ -37,11 +37,11 @@ class CommentRepositoryImpl implements CommentRepository
         $statement->execute([$id]);
 
         if ($row = $statement->fetch()) {
-            return new Comment(
-                id: $row["id"],
-                email: $row["email"],
-                comment: $row["comment"]
-            );
+            // return new Comment(
+            //     id: $row["id"],
+            //     email: $row["email"],
+            //     comment: $row["comment"]
+            // );
         } else {
             return null;
         }
@@ -56,11 +56,11 @@ class CommentRepositoryImpl implements CommentRepository
         $array = [];
         // lakukan fetch terus-terusan sampai bernilai false
         while ($row = $statement->fetch()) {
-            $array[] = new Comment(
-                id: $row["id"],
-                email: $row["email"],
-                comment: $row["comment"]
-            );
+            // $array[] = new Comment(
+            //     id: $row["id"],
+            //     email: $row["email"],
+            //     comment: $row["comment"]
+            // );
         }
         return $array;
     }
